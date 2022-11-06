@@ -21,7 +21,8 @@
 - [x] section9-2_isPalindrome
   - 221106
 - [x] section9-3_someRecursive
-- [ ] section9-4_flatten
+- [x] section9-4_flatten
+  - 221106
 
 ### 개념 정리
 ##### section8-5_fib
