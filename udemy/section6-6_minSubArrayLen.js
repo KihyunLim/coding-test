@@ -1,7 +1,4 @@
 /* 
-fail
-
-
 Sliding Window - minSubArrayLen
 Write a function called minSubArrayLen which accepts two parameters - an array of positive integers and a positive integer.
 
