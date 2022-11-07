@@ -25,6 +25,9 @@
   - 221106
 - [x] section9-5_capitalizeFirst
 - [x] section9-6_nestedEvenSum
+- [x] section9-7_capitalizeWords
+- [ ] section9-8_stringifyNumbers
+  - 왜?
 
 ### 개념 정리
 ##### section8-5_fib
