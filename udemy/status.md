@@ -23,6 +23,8 @@
 - [x] section9-3_someRecursive
 - [x] section9-4_flatten
   - 221106
+- [x] section9-5_capitalizeFirst
+- [x] section9-6_nestedEvenSum
 
 ### 개념 정리
 ##### section8-5_fib
