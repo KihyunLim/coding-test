@@ -23,14 +23,19 @@ function maxSubarraySum(arr, len){
   }
 
   let max = 0;
-  for (let i = 0; i < len; i++) {
-    max += arr[i];
-  }
+  let sum = 0;
 
-  let currentMax = max;
-  for (let j = len; j < arr.length; j++) {
-    currentMax = currentMax - arr[j-len] + arr[j];
-    max = Math.max(max, currentMax);
+  for (let t = 0; t < len; t++) {
+    max += arr[t];
+  }
+  sum = max;
+
+  for (let i = len; i < arr.length; i++) {
+    sum = sum - arr[i - len] + arr[i];
+
+    if (max < sum) {
+      max = sum;
+    }
   }
 
   return max;

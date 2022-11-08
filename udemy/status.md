@@ -7,8 +7,10 @@
 - [x] [section6-1_sameFrequency](./section6-1_sameFrequency.js)
 - [x] [section6-2_Multiple Pointers - areThereDuplicates](./section6-2_Multiple%20Pointers%20-%20areThereDuplicates.js)
 - [ ] [section6-3_averagePair](./section6-3_averagePair.js)
-- [ ] [section6-4_isSubsequence](./section6-4_isSubsequence.js)
-- [ ] [section6-5_maxSubarraySum](./section6-5_maxSubarraySum.js)
+- [x] [section6-4_isSubsequence](./section6-4_isSubsequence.js)
+  - 221108
+- [x] [section6-5_maxSubarraySum](./section6-5_maxSubarraySum.js)
+  - 221108
 - [ ] [section6-6_minSubArrayLen](./section6-6_minSubArrayLen.js)
 - [ ] [section6-7_findLongestSubstring](./section6-7_findLongestSubstring.js)
 - [x] [section8-1_power](./section8-1_power.js)

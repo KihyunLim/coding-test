@@ -1,7 +1,7 @@
 /* 
 Multiple Pointers - isSubsequence
-Write a function called isSubsequence which takes in two strings and checks 
-whether the characters in the first string form a subsequence of the characters in the second string. 
+Write a function called isSubsequence which takes in two strings 
+and checks whether the characters in the first string form a subsequence of the characters in the second string. 
 In other words, the function should check 
 whether the characters in the first string appear somewhere in the second string, without their order changing.
 
@@ -17,8 +17,18 @@ Time Complexity - O(N + M)
 Space Complexity - O(1)
  */
 
-function isSubsequence() {
-  // good luck. Add any arguments you deem necessary.
+function isSubsequence(str1, str2) {
+  for (let c of str2) {
+    if (c === str1[0]) {
+      str1 = str1.slice(1);
+    }
+  }
+
+  if (str1.length > 0) {
+    return false;
+  } else {
+    return true;
+  }
 }
 
 console.log(isSubsequence('hello', 'hello world')); // true
