@@ -31,16 +31,37 @@ let obj = {
 */
 
 function stringifyNumbers(obj) {
+  let newObj = {};
+
   for (let key in obj) {
     if (typeof obj[key] === 'number') {
-      obj[key] = String(obj[key]);
+      newObj[key] = String(obj[key]);
+    } else if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+      newObj[key] = stringifyNumbers(obj[key]);
     } else {
-      stringifyNumbers(obj[key]);
+      newObj[key] = obj[key];
     }
   }
 
-  return obj;
+  return newObj;
 }
+
+/* 
+  다른 문제는 리턴만 하면 되면서 왜 이건 바꿔줘야하는데ㅁ니아ㅓㄻ;ㄴ이러ㅏ;ㅁ
+  영어를 못하는 내 잘못인게지...ㅠ
+  stringifyNumbers should not modify an existing object. Expected '1' to be 1. 
+*/
+// function stringifyNumbers(obj) {
+//   for (let key in obj) {
+//     if (typeof obj[key] === 'number') {
+//       obj[key] = String(obj[key]);
+//     } else {
+//       stringifyNumbers(obj[key]);
+//     }
+//   }
+//
+//   return obj;
+// }
 
 console.log(stringifyNumbers(obj));
 
