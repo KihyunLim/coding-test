@@ -31,6 +31,8 @@
 - [x] [section9-8_stringifyNumbers](./section9-8_stringifyNumbers.js)
   - 221108
 - [x] [section9-9_collectStrings](./section9-9_collectStrings.js)
+- [x] [section10-1_linearSearch](./section10-1_linearSearch.js)
+- [x] [section10-2_binarySearch](./section10-2_binarySearch.js)
 
 ### 개념 정리
 ##### section8-5_fib
