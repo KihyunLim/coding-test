@@ -33,6 +33,7 @@
 - [x] [section9-9_collectStrings](./section9-9_collectStrings.js)
 - [x] [section10-1_linearSearch](./section10-1_linearSearch.js)
 - [x] [section10-2_binarySearch](./section10-2_binarySearch.js)
+- [x] [section10-3_naiveSearch](./section10-3_naiveSearch.js)
 
 ### 개념 정리
 ##### section8-5_fib
