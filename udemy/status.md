@@ -6,7 +6,8 @@
 - [x] [section5-2_countUniqueValues](./section5-2_countUniqueValues.js)
 - [x] [section6-1_sameFrequency](./section6-1_sameFrequency.js)
 - [x] [section6-2_Multiple Pointers - areThereDuplicates](./section6-2_Multiple%20Pointers%20-%20areThereDuplicates.js)
-- [ ] [section6-3_averagePair](./section6-3_averagePair.js)
+- [x] [section6-3_averagePair](./section6-3_averagePair.js)
+  - 221110
 - [x] [section6-4_isSubsequence](./section6-4_isSubsequence.js)
   - 221108
 - [x] [section6-5_maxSubarraySum](./section6-5_maxSubarraySum.js)

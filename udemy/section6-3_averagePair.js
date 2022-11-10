@@ -23,14 +23,19 @@ function averagePair(arr, target){
   }
 
   let start = 0;
-  let next = 1;
-  while(next < arr.length) {
-    if ((arr[start] + arr[next]) / 2 === target) {
+  let end = arr.length - 1;
+
+  while (start < end) {
+    if ((arr[start] + arr[end]) / 2 < target) {
+      start++;
+    } else if ((arr[start] + arr[end]) / 2 > target) {
+      end--;
+    } else {
       return true;
     }
-
-
   }
+
+  return false;
 }
 
 console.log(averagePair([1,2,3],2.5)); // true
