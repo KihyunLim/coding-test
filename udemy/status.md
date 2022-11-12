@@ -35,7 +35,11 @@
 - [x] [section10-1_linearSearch](./section10-1_linearSearch.js)
 - [x] [section10-2_binarySearch](./section10-2_binarySearch.js)
 - [x] [section10-3_naiveSearch](./section10-3_naiveSearch.js)
+- [x] [section11-1_bubble_unoptimized](./section11-1_bubble_unoptimized.js)
+- [x] [section11-2_optimized_bubble](./section11-2_optimized_bubble.js)
 
 ### 개념 정리
 ##### section8-5_fib
 ![피보나치 예시](./etc/fib.jpg)
+##### section11
+[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
