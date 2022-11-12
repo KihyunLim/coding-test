@@ -37,6 +37,8 @@
 - [x] [section10-3_naiveSearch](./section10-3_naiveSearch.js)
 - [x] [section11-1_bubble_unoptimized](./section11-1_bubble_unoptimized.js)
 - [x] [section11-2_optimized_bubble](./section11-2_optimized_bubble.js)
+- [x] [section12-1_selectionSort](./section12-1_selectionSort.js)
+- [] [section13-1_insertionSort](./section13-1_insertionSort.js)
 
 ### 개념 정리
 ##### section8-5_fib
