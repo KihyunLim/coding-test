@@ -43,6 +43,8 @@
 - [] [section14-2_mergeSort.js](./section14-2_mergeSort.js.js)
 
 ### 개념 정리
+##### BigO complexity chart
+![BigO 복잡도 차트](./etc/bigO%20complexity%20chart.png)
 ##### section8-5_fib
 ![피보나치 예시](./etc/fib.jpg)
 ##### section11
