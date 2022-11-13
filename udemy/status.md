@@ -39,6 +39,8 @@
 - [x] [section11-2_optimized_bubble](./section11-2_optimized_bubble.js)
 - [x] [section12-1_selectionSort](./section12-1_selectionSort.js)
 - [] [section13-1_insertionSort](./section13-1_insertionSort.js)
+- [] [section14-1_mergeArrays](./section14-1_mergeArrays.js)
+- [] [section14-2_mergeSort.js](./section14-2_mergeSort.js.js)
 
 ### 개념 정리
 ##### section8-5_fib
