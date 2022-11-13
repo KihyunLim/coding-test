@@ -49,3 +49,5 @@
 ![피보나치 예시](./etc/fib.jpg)
 ##### section11
 [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
+##### section14 merge sort
+![합병정렬 예시](./etc/mergesort.png)
