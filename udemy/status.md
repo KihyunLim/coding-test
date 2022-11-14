@@ -38,11 +38,14 @@
 - [x] [section11-1_bubble_unoptimized](./section11-1_bubble_unoptimized.js)
 - [x] [section11-2_optimized_bubble](./section11-2_optimized_bubble.js)
 - [x] [section12-1_selectionSort](./section12-1_selectionSort.js)
-- [] [section13-1_insertionSort](./section13-1_insertionSort.js)
-- [] [section15-1_mergeArrays](./section15-1_mergeArrays.js)
-- [] [section15-2_mergeSort.js](./section15-2_mergeSort.js.js)
+- [ ] [section13-1_insertionSort](./section13-1_insertionSort.js)
+- [ ] [section15-1_mergeArrays](./section15-1_mergeArrays.js)
+- [ ] [section15-2_mergeSort.js](./section15-2_mergeSort.js)
+- [x] [section16-1_pivot.js](./section16-1_pivot.js)
+- [ ] [section16-2_quickSort.js](./section16-2_quickSort.js)
 
 ### 개념 정리
+#### 나중에 정렬별로 간단한 한글 설명 필요할 듯
 ##### BigO complexity chart
 ![BigO 복잡도 차트](./etc/bigO%20complexity%20chart.png)
 ##### section8-5_fib
