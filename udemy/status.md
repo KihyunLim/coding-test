@@ -39,8 +39,8 @@
 - [x] [section11-2_optimized_bubble](./section11-2_optimized_bubble.js)
 - [x] [section12-1_selectionSort](./section12-1_selectionSort.js)
 - [] [section13-1_insertionSort](./section13-1_insertionSort.js)
-- [] [section14-1_mergeArrays](./section14-1_mergeArrays.js)
-- [] [section14-2_mergeSort.js](./section14-2_mergeSort.js.js)
+- [] [section15-1_mergeArrays](./section15-1_mergeArrays.js)
+- [] [section15-2_mergeSort.js](./section15-2_mergeSort.js.js)
 
 ### 개념 정리
 ##### BigO complexity chart
@@ -49,5 +49,5 @@
 ![피보나치 예시](./etc/fib.jpg)
 ##### section11
 [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
-##### section14 merge sort
+##### section15 merge sort
 ![합병정렬 예시](./etc/mergesort.png)
