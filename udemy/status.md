@@ -43,6 +43,10 @@
 - [ ] [section15-2_mergeSort.js](./section15-2_mergeSort.js)
 - [x] [section16-1_pivot.js](./section16-1_pivot.js)
 - [ ] [section16-2_quickSort.js](./section16-2_quickSort.js)
+- [ ] [section17-1_getDigit.js](./section17-1_getDigit.js)
+- [ ] [section17-2_getDigitCount.js](./section17-2_getDigitCount.js)
+- [ ] [section17-3_mostDigits.js](./section17-3_mostDigits.js)
+- [ ] [section17-4_radixSort.js](./section17-4_radixSort.js)
 
 ### 개념 정리
 #### 나중에 정렬별로 간단한 한글 설명 필요할 듯
