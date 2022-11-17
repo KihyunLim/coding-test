@@ -95,6 +95,54 @@ class SinglyLinkedList {
 
     return this;
   }
+
+  get(index) {
+    if (index < 0 || index >= this.length) {
+      return null;
+    }
+
+    let count = 0;
+    let target = this.head;
+    while (count !== index) {
+      target = target.next;
+      count++;
+    }
+
+    return target;
+  }
+
+  set(index, val) {
+    let target = this.get(index);
+
+    if (!target) {
+      return false;
+    }
+
+    target.val = val;
+
+    return true;
+  }
+
+  insert(index, val) {
+    if (index === 0) {
+      return this.unshift(val) ? true : false;
+    } else if (index === this.length) {
+      return this.push(val) ? true : false;
+    } else {
+      let prev = this.get(index - 1);
+
+      if (!prev) {
+        return false;
+      }
+
+      let newNode = new Node(val);
+      newNode.next = prev.next;
+      prev.next = newNode;
+      this.length++;
+
+      return true;
+    }
+  }
 }
 
 const list = new SinglyLinkedList();
