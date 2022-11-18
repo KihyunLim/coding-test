@@ -40,13 +40,14 @@
 - [x] [section12-1_selectionSort](./section12-1_selectionSort.js)
 - [ ] [section13-1_insertionSort](./section13-1_insertionSort.js)
 - [ ] [section15-1_mergeArrays](./section15-1_mergeArrays.js)
-- [ ] [section15-2_mergeSort.js](./section15-2_mergeSort.js)
-- [x] [section16-1_pivot.js](./section16-1_pivot.js)
-- [ ] [section16-2_quickSort.js](./section16-2_quickSort.js)
-- [ ] [section17-1_getDigit.js](./section17-1_getDigit.js)
-- [ ] [section17-2_getDigitCount.js](./section17-2_getDigitCount.js)
-- [ ] [section17-3_mostDigits.js](./section17-3_mostDigits.js)
-- [ ] [section17-4_radixSort.js](./section17-4_radixSort.js)
+- [ ] [section15-2_mergeSort](./section15-2_mergeSort.js)
+- [x] [section16-1_pivot](./section16-1_pivot.js)
+- [ ] [section16-2_quickSort](./section16-2_quickSort.js)
+- [ ] [section17-1_getDigit](./section17-1_getDigit.js)
+- [ ] [section17-2_getDigitCount](./section17-2_getDigitCount.js)
+- [ ] [section17-3_mostDigits](./section17-3_mostDigits.js)
+- [ ] [section17-4_radixSort](./section17-4_radixSort.js)
+- [ ] [section19-1.singlyLinkedLIst](./section19-1.singlyLinkedLIst.js)
 
 ### 개념 정리
 #### 나중에 정렬별로 간단한 한글 설명 필요할 듯
