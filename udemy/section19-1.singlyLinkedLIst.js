@@ -143,6 +143,38 @@ class SinglyLinkedList {
       return true;
     }
   }
+
+  remove(index) {
+    let target = this.get(index);
+
+    if (!target) {
+      return undefined;
+    }
+
+    if (index === this.length - 1) {
+      return this.pop();
+    } else if (index === 0) {
+      return this.shift();
+    } else {
+      let prev = this.get(index - 1);
+
+      prev.next = target.next;
+      target.next = null;
+      this.length--;
+
+      return target;
+    }
+  }
+
+  reverse() {
+    if (!this.head) {
+      return undefined;
+    } else if (this.length === 1) {
+      return this;
+    } else {
+      // ?
+    }
+  }
 }
 
 const list = new SinglyLinkedList();
