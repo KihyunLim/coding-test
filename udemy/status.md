@@ -47,7 +47,8 @@
 - [ ] [section17-2_getDigitCount](./section17-2_getDigitCount.js)
 - [ ] [section17-3_mostDigits](./section17-3_mostDigits.js)
 - [ ] [section17-4_radixSort](./section17-4_radixSort.js)
-- [ ] [section19-1.singlyLinkedLIst](./section19-1.singlyLinkedLIst.js)
+- [x] [section19-1.singlyLinkedLIst](./section19-1.singlyLinkedLIst.js)
+- [x] [section20-1_doublyLinkedList](./section20-1_doublyLinkedList.js)
 
 ### 개념 정리
 #### 나중에 정렬별로 간단한 한글 설명 필요할 듯
@@ -59,3 +60,5 @@
 [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 ##### section15 merge sort
 ![합병정렬 예시](./etc/mergesort.png)
+##### section19 single linked list - reverse
+![단일 연결 리스트 reverse 예시](./etc/single%20linked%20list%20reverse.jpg)
