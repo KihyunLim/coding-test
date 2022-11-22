@@ -49,6 +49,9 @@
 - [ ] [section17-4_radixSort](./section17-4_radixSort.js)
 - [x] [section19-1.singlyLinkedLIst](./section19-1.singlyLinkedLIst.js)
 - [x] [section20-1_doublyLinkedList](./section20-1_doublyLinkedList.js)
+- [x] [section21-1_stack](./section21-1_stack.js)
+- [x] [section21-2_queue](./section21-2_queue.js)
+- [x] [section22-1_binaryTreeSearch](./section22-1_binaryTreeSearch.js)
 
 ### 개념 정리
 #### 나중에 정렬별로 간단한 한글 설명 필요할 듯
