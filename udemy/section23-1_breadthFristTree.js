@@ -55,6 +55,56 @@ class BinaryTreeSearch {
     this.root = null;
   }
 
+  BFS() {
+    if (!this.root) {
+      return undefined;
+    }
+
+    let data = [this.root.val];
+    let visited = [];
+    function recursion(arr, leaf) {
+      if (arr.length === 0) {
+        return;
+      }
+
+      visited.push(arr.shift());
+
+      if (leaf.left) {
+        arr.push(leaf.left.val);
+      }
+      if (leaf.right) {
+        arr.push(leaf.right.val);
+      }
+    }
+
+    recursion(data, this.root);
+
+    return visited;
+  }
+  /* BFS() {
+    if (!this.root) {
+      return undefined;
+    }
+
+    let data = [];
+    let visited = [];
+    function recursion(leaf) {
+      if (!leaf) {
+        return;
+      }
+
+      data.push(leaf.val);
+      visited.push(data.shift());
+
+      recursion(leaf.left);
+      recursion(leaf.right);
+    }
+
+    recursion(this.root);
+
+    return visited;
+  } */
+
   insert(val) {
     let newNode = new Node(val);
     let node = this.root;
@@ -103,22 +153,6 @@ class BinaryTreeSearch {
     }
 
     return undefined;
-  }
-
-  BFS() {
-    let data = [];
-    let visited = [];
-    let node = this.root;
-
-    if (this.root) {
-      data.push(this.root.val);
-    } else {
-      return undefined;
-    }
-
-    function recursion(tree) {
-      
-    }
   }
 }
 
