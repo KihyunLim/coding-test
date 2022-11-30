@@ -52,6 +52,13 @@
 - [x] [section21-1_stack](./section21-1_stack.js)
 - [x] [section21-2_queue](./section21-2_queue.js)
 - [x] [section22-1_binaryTreeSearch](./section22-1_binaryTreeSearch.js)
+- [] [section23-1_breadthFristTree](./section23-1_breadthFristTree.js)
+- [] [section23-2_depthFristTree-preOrder](./section23-2_depthFristTree-preOrder.js)
+- [] [section23-3_depthFristTree-postOrder](./section23-3_depthFristTree-postOrder.js)
+- [] [section23-4_depthFristTree-inOrder](./section23-4_depthFristTree-inOrder.js)
+- [] [section24-1_MaxBinaryHeap](./section24-1_MaxBinaryHeap.js)
+- [] [section24-2_MaxBinaryHeap](./section24-2_MaxBinaryHeap.js)
+- [] [section24-3_PriorityQueue](./section24-3_PriorityQueue.js)
 
 ### 개념 정리
 #### 나중에 정렬별로 간단한 한글 설명 필요할 듯
