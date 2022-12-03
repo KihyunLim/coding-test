@@ -59,6 +59,7 @@
 - [] [section24-1_MaxBinaryHeap](./section24-1_MaxBinaryHeap.js)
 - [] [section24-2_MaxBinaryHeap](./section24-2_MaxBinaryHeap.js)
 - [] [section24-3_PriorityQueue](./section24-3_PriorityQueue.js)
+- [] [section25-1_HashTable](./section25-1_HashTable.js)
 
 ### 개념 정리
 #### 나중에 정렬별로 간단한 한글 설명 필요할 듯
