@@ -73,6 +73,25 @@ class Graph {
 
     return result;
   }
+
+  depthFirstIterative() {
+    let stack = [];
+    let list = [];
+    let visited = {};
+
+    stack.push('A');
+    while(stack.length > 0) {
+      let vertex = stack.pop();
+
+      if (!visited[vertex]) {
+        stack.push(...this.adjacencyList[vertex]);
+        list.push(vertex);
+        visited[vertex] = true;
+      }
+    }
+
+    return list;
+  }
 }
 
 let g = new Graph();
@@ -90,3 +109,17 @@ g.addEdge('C', 'E');
 g.addEdge('D', 'E');
 g.addEdge('D', 'F');
 g.addEdge('E', 'F');
+
+/* 
+{
+  A: ['B', 'C'],
+  B: ['A', 'D'],
+  C: ['A', 'E'],
+  D: ['B', 'E', 'F'],
+  E: ['C', 'D', 'F'],
+  F: ['D', 'E'],
+}
+
+depthFirstRecursive : ['A', 'B', 'D', 'E', 'C', 'F']
+depthFirstIterative : ['A', 'C', 'E', 'F', 'D', 'B']
+ */
