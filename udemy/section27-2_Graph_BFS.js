@@ -34,80 +34,21 @@ class Graph {
     delete this.adjacencyList[vertex];
   }
 
-  /* depthFirstRecursive() {
-    let list = [];
-    let visited = {};
-    function dfs(graph, vertex) {
-      if (visited[vertex]) {
-        return;
-      }
-
-      visited[vertex] = true;
-      list.push(vertex);
-
-      graph[vertex].forEach((v) => {
-        dfs(graph, v);
-      });
-    }
-
-    dfs(this.adjacencyList, 'A');
-
-    return list;
-  } */
-  //솔루션
-  depthFirstRecursive(start) {
-    let result = [];
-    let visited = {};
-    let adjacencyList = this.adjacencyList;
-
-    (function dfs(vertex) {
-      if (!vertex) return null;
-      visited[vertex] = true;
-      result.push(vertex);
-      adjacencyList[vertex].forEach((v) => {
-        if (!visited[v]) {
-          return dfs(v);
-        }
-      });
-    })(start);
-
-    return result;
-  }
-
-  //솔루션과 크게 차이는 없고, 그냥 스택이 조금 더 길어진다 정도??
-  /* depthFirstIterative(start) {
-    let stack = [start];
-    let list = [];
-    let visited = {};
-
-    while(stack.length > 0) {
-      let vertex = stack.pop();
-
-      if (!visited[vertex]) {
-        stack.push(...this.adjacencyList[vertex]);
-        list.push(vertex);
-        visited[vertex] = true;
-      }
-    }
-
-    return list;
-  } */
-  //솔루션
-  depthFirstIterative(start) {
-    let stack = [start];
+  breadthFirstIterative(start) {
+    let queue = [start];
     let result = [];
     let visited = {};
     let vertex;
 
     visited[start] = true;
-    while(stack.length) {
-      vertex = stack.pop();
+    while(queue.length) {
+      vertex = queue.unshift();
       result.push(vertex);
 
       this.adjacencyList[vertex].forEach((v) => {
         if (!visited[v]) {
           visited[v] = true;
-          stack.push(v);
+          queue.push(v);
         }
       });
     }
@@ -142,6 +83,5 @@ g.addEdge('E', 'F');
   F: ['D', 'E'],
 }
 
-depthFirstRecursive : ['A', 'B', 'D', 'E', 'C', 'F']
-depthFirstIterative : ['A', 'C', 'E', 'F', 'D', 'B']
+breadthFirstIterative : ['A', 'B', 'C', 'D', 'E', 'F']
  */
